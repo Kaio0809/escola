@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Alunos</title>
+        <link rel="icon" type="image/x-icon" href="cd.png">
+        <style>
+            table { border-collapse: collapse;}
+            table, th, td { border: 1px solid white;}
+            table {margin-left: auto; margin-right: auto;}
+            th, td { text-align: center;}
+          </style>
+    </head>
+
+    <body style="background-color: black;">
+        <p style="color: blue;">Menu Incial</p>
+
+        <select name="Menu" id="opcoes">
+            <option value="1">Index</option>
+            <option value="2">Alunos</option>
+            <option value="3">Professores</option>
+            <option value="4">Salas</option>
+            <option value="5">Disciplinas</option>
+        </select>
+
+        <h1 style="color: blue; font-family:verdana; text-align:center";>Alunos</h1>
+        <hr>
+
+        <br><br>
+        <table style="color:white" width="1100">
+            <tr>
+                <th>ID</th>
+                <th>Nome</th>
+                <th>Matrícula</th>
+                <th>Data de Nascimento</th>
+                <th>Telefone</th>
+                <th>Endereço</th>
+                <th>Estado-Matrícula</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>José</td>
+                <td>12345678910</td>
+                <td>01-10-2000</td>
+                <td>(85) 992234569</td>
+                <td>Rua orena blafes - 234</td>
+                <td>Sim</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Maria</td>
+                <td>10987654321</td>
+                <td>04-06-2003</td>
+                <td>(85) 998765432</td>
+                <td>Rua magalhaes onar - 437</td>
+                <td>Sim</td>
+            </tr>
+        </table>
+
+        <br><br>
+        <center>
+            <button>Editar </button>
+            <button>Excluir </button>
+            <button onclick="window.location.href = '';">Cadastrar Aluno Novo</button>
+        </center>
+        
+
+    </body>
+
+
+
+</html>

@@ -70,3 +70,14 @@ h1{
     text-align:center
     
 }
+
+button{
+    background-color: forestgreen;
+    color: white;
+    text-align: center;
+    border-radius: 15%;
+    padding: 7px 14px;
+    font-family: Verdana;
+    border: 2px solid darkgreen;
+
+}
